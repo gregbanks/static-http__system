@@ -2,16 +2,16 @@ FROM ubuntu:18.04
 
 MAINTAINER Foo Bar (foo@bar.com)
 
-ARG PORT=8787
+ARG PORT=8888
 
 RUN \
   apt-get update && \
   apt-get install -y python python-dev python-pip python-virtualenv && \
   rm -rf /var/lib/apt/lists/* && \
   mkdir -p /srv && \
-  useradd -M -s /bin/false www
+  useradd -M -s /bin/false www2
 
-USER www:www
+USER www2:www2
 
 COPY html /srv/html
 
