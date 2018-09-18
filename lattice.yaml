@@ -10,12 +10,6 @@ components:
     type: v1/service
     build:
       type: docker_build
-      docker_file:
-        location:
-          type: git_repository
-          url: https://github.com/gregbanks/static-http.git
-          tag: 1.3.0
-        path: docker
       build_context:
         location:
           type: git_repository
@@ -23,7 +17,7 @@ components:
           tag: 1.3.0
         path: context
     ports:
-      "8888":
+      "8787":
         protocol: TCP
         external_access:
           public: true 

@@ -12,3 +12,10 @@
 
 - definition at root
     - points to remote Dockerfile and build context in local service definition
+
+### 1.2.0 override
+
+- definition at root
+    - points to local Dockerfile using defaults
+    - points at remote build context in local service definition
+- Dockerfile at root
