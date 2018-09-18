@@ -7,7 +7,7 @@ node_pools:
 
 components:
   www:
-   type: v1/service
+  type: v1/service
     build:
       type: docker_build
       docker_file:
