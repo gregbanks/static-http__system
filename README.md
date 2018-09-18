@@ -7,3 +7,8 @@
 - definition at root
     - references service definition at gregbanks/static-http/definition/www.yaml
     - uses remote Dockerfile and build context
+
+### 1.1.0 override
+
+- definition at root
+    - points to remote Dockerfile and build context in local service definition
