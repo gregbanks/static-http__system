@@ -26,3 +26,10 @@
     - points to local build context using defaults
     - points at remote Dockerfile in local service definition
 - build context at root
+
+### 1.4.0 override
+
+- definition at root
+    - points to remote Dockerfile and build context in local service definition
+    - sets environment variable `HTMLDIR` to `html2`
+
