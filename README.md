@@ -31,5 +31,5 @@
 
 - definition at root
     - points to remote Dockerfile and build context in local service definition
-    - sets environment variable `HTMLDIR` to `html2`
+    - sets build arg `HTML_DIR` to `html2`
 
