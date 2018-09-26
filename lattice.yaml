@@ -24,6 +24,11 @@ components:
         path: context
       build_args:
         HTML_DIR: html2
+      options:
+        extra_hosts:
+          - 192.168.1.128 foo
+        no_cache: true
+        pull_parent: true
     ports:
       "8888":
         protocol: TCP

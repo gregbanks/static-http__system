@@ -33,3 +33,9 @@
     - points to remote Dockerfile and build context in local service definition
     - sets build arg `HTML_DIR` to `html2`
 
+### 1.5.0 override
+
+- definition at root
+    - points to remote Dockerfile and build context in local service definition
+    - sets build arg `HTML_DIR` to `html2`
+- add build options
