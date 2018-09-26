@@ -14,13 +14,13 @@ components:
         location:
           type: git_repository
           url: https://github.com/gregbanks/static-http.git
-          tag: 2.0.1
+          tag: 2.0.2
         path: docker
       build_context:
         location:
           type: git_repository
           url: https://github.com/gregbanks/static-http.git
-          tag: 2.0.1
+          tag: 2.0.2
         path: context
       build_args:
         HTML_DIR: html2
